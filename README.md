@@ -2,59 +2,61 @@
 
 ## Project Overview
 
-This project involves analyzing wind data from two locations: one from southwest Glasgow, Scotland, and one from northeast Galway, Ireland. The data is provided in CSV format, with two types of data sources:
-
-- **LiDAR Data**: A laser-based measurement device used to gather wind data at multiple heights.
-- **Mesoscale Data**: An averaged, low-resolution wind model data at 99m height.
-
-The goal is to explore the relationship between the LiDAR and Mesoscale data, perform data analysis, and create a dashboard that visualizes the results.
+This project involves the analysis of wind data from two locations: southwest Glasgow, Scotland, and northeast Galway, Ireland. The data sources consist of LiDAR measurements and Mesoscale model data, both provided in CSV format. The purpose of this project is to explore the relationship between these data sources, perform various data analysis tasks, and build a dashboard that visualizes the results effectively.
 
 ## Key Features
 
-- **Data Input**: The dashboard allows you to input the `.csv` files via a browse button.
-- **Data Analysis**: The dashboard processes the data in the background and displays the results in visual forms (tables, charts, etc.).
-- **Analytics**: Analyze the relationship between the LiDAR data at various heights and the Mesoscale data. You can use your analytical creativity to perform additional exploratory analysis.
-- **Event Identification (Bonus)**: Optionally, write an algorithm to identify special events from the LiDAR data, cross-referencing them with external news sources to validate the event. This feature can be visualized within the dashboard.
+- **Data Input**: The dashboard allows users to upload the `.csv` files through a browse button.
+- **Data Analysis**: The dashboard processes the data and performs various analytical tasks in the background, presenting results through tables, charts, and other visualizations.
+- **Analytics**: The analysis includes exploring relationships between the LiDAR data at different heights and Mesoscale data. Custom analysis techniques were used to reveal insights and patterns.
+- **Event Detection**: A tool has been integrated to identify special events in the LiDAR data. This tool cross-references these events with external news sources to validate whether significant occurrences (e.g., storms or unusual weather patterns) align with the data. The results are visualized within the dashboard.
 
 ## Data Sources
 
-The project includes two CSV files, one for each data source:
+The project uses two primary types of data:
 
-1. **LiDAR Data**: Includes timestamps, wind speed, wind direction, standard deviation, and turbulence, measured at various heights.
-2. **Mesoscale Data**: Includes timestamps, wind speed, and wind direction, but only at a 99m height and with lower resolution (1-hour intervals).
+1. **LiDAR Data**: Laser-based measurements capturing wind speed, wind direction, standard deviation, turbulence, and timestamps at different heights.
+2. **Mesoscale Data**: Averaged model data, provided at a 99m height and with a lower resolution (1-hour intervals). This data includes wind speed, wind direction, and timestamps.
 
-## Dashboard Requirements
+## Dashboard Overview
 
-- **File Upload**: The dashboard must allow the user to upload the `.csv` files.
-- **Analysis**: Perform analysis of the data (e.g., comparing LiDAR and Mesoscale data, analyzing LiDAR data at different heights).
-- **Visualizations**: Display the results of the analysis in the form of tables and/or charts.
-- **Local Hosting**: The dashboard does not need to be hosted on a server and should be executable on the local machine.
+The dashboard provides an interactive interface where users can upload the data files and visualize various analytical results. It includes:
 
-## Technical Details
+- **File Upload Functionality**: Users can select and upload the CSV files containing the wind data.
+- **Data Processing**: Once the files are uploaded, the dashboard performs background analysis such as comparing the LiDAR data at different heights with Mesoscale data.
+- **Visual Results**: The results of the analysis are shown as tables and charts to make the findings easily interpretable.
+- **Special Event Detection Tool**: The dashboard includes a feature that identifies special events in the LiDAR data, such as high wind speeds or turbulence. It checks these events against online news sources for verification, which is also displayed in the dashboard for the user to review.
 
-- **Programming Languages**: Python, JavaScript (optional for frontend), or any other suitable tools for creating the dashboard.
-- **Data Handling**: Use Python libraries such as Pandas for data manipulation and Matplotlib for visualization.
-- **Frameworks**: Flask or similar frameworks for creating the local dashboard if using Python.
+## Technologies Used
+
+- **Python**: The backend is built using Python, utilizing libraries such as Pandas for data processing, and Matplotlib for data visualization.
+- **Flask**: The dashboard is powered by the Flask web framework, allowing it to run as a local, executable application.
+- **JavaScript**: Used for frontend elements and to enhance interactivity within the dashboard.
+
+## Key Tasks Completed
+
+- **Data Analysis**: Implemented and completed analysis comparing LiDAR and Mesoscale data, including investigating the relationship between the two datasets at various heights.
+- **Dashboard Development**: Designed and implemented a local dashboard that enables users to upload CSV files, perform data analysis, and view results in visual formats.
+- **Event Detection Algorithm**: Developed a tool to detect special events in the LiDAR data and cross-verify these events with external news sources for validation. This feature provides additional insights into the data, particularly when unusual weather events are detected.
   
 ## Objective
 
-- To explore front-end development for wind turbine data analysis.
-- To apply traditional statistical or simple analytical methods for wind analysis.
-- To explore and apply creativity in the use of tools and techniques to solve problems.
+The objective of this project was to develop a practical, user-friendly tool for analyzing wind turbine data and displaying insights in an interactive dashboard. Additionally, the project explored the use of data analysis and creativity in building tools that leverage both statistical analysis and external data sources for event verification.
 
-## Bonus Credits
+## Future Improvements
 
-If you complete the above tasks and have time, you can implement a feature to detect special events in the LiDAR data, verify them by checking news or other online sources, and display the results in the dashboard.
+- **Expanded Event Detection**: Enhancing the event detection algorithm to recognize a broader range of weather phenomena.
+- **Data Granularity**: Incorporating higher-resolution Mesoscale data or more detailed LiDAR datasets for more precise analyses.
+- **User Interface Enhancements**: Improving the design and user experience for easier interaction with the dashboard and its features.
 
-## Timeline
 
-- **Deadline**: All tasks must be completed by **19th February**.
-- **Presentation**: The results should be presented in the form of a PowerPoint presentation or via a live demo of the executable dashboard.
+The application will start running locally and can be accessed through your browser.
 
 ## Contact Information
 
-For any doubts or questions regarding this project, feel free to reach out via email.
+For any questions or suggestions regarding this project, feel free to reach out.
 
 ## Acknowledgements
 
-This project is designed to simulate real-world data analysis tasks in the wind energy sector and aims to provide hands-on experience with wind analysis tools and front-end dashboard development.
+This project simulates real-world data analysis tasks in the wind energy sector and aims to provide a hands-on experience with front-end dashboard development, data analysis, and external data integration.
+

@@ -1,4 +1,4 @@
-# Wind Turbine Data Analysis Dashboard
+# Wind Turbine Data Analysis Dashboard for vestas 
 
 ## Project Overview
 

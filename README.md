@@ -1,6 +1,6 @@
 # Wind Turbine Data Analysis Dashboard for vestas 
 
-https://drive.google.com/file/d/1w6H2dAuGWNEz3wNVd28WaZcy9sxNBy9v/view?usp=sharing
+The project : https://drive.google.com/file/d/1w6H2dAuGWNEz3wNVd28WaZcy9sxNBy9v/view?usp=sharing
 
 
 

@@ -6,7 +6,7 @@ The project : https://drive.google.com/file/d/1w6H2dAuGWNEz3wNVd28WaZcy9sxNBy9v/
 
 ## Project Overview
 
-This project involves the creation of an app with dashboarding functionality (check the video ) and detect everytime when there is an extreme event (wind direction brutal change, wind speed getting too high : using an open API from https://open-meteo.com/ and forecasting the weather or the reasons of the extreme event) the analysis of wind data from two locations: southwest Glasgow, Scotland, and northeast Galway, Ireland. The data sources consist of LiDAR measurements and Mesoscale model data, both provided in CSV format. The purpose of this project is to explore the relationship between these data sources, perform various data analysis tasks, and build a dashboard that visualizes the results effectively.
+This project involves the creation of an app with dashboarding functionality (check the video ) also detecting  extreme events (wind direction sudden change,  high wind speed: using an open API from https://open-meteo.com/ and forecasting the weather or the reasons of the extreme event) the analysis of wind data from two locations: southwest Glasgow, Scotland, and northeast Galway, Ireland. The data sources consist of LiDAR measurements and Mesoscale model data, both provided in CSV format. The purpose of this project is to explore the relationship between these data sources, perform various data analysis tasks, and build a dashboard that visualizes the results effectively.
 
 ## Key Features
 
